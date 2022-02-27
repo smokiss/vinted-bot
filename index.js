@@ -162,7 +162,7 @@ client.on('ready', () => {
     }, 20000);
 
     sync();
-    setInterval(sync, 150000);
+    setInterval(sync, 15000);
 
     const { version } = require('./package.json');
     client.user.setActivity(`Smokiss Vinted BOT | v${version}`);
